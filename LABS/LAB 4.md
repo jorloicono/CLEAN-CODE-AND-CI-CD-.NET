@@ -117,21 +117,3 @@ The student should:
 3. Update `Main` so that calls are type‑safe and there are no `NotSupportedException` placeholders.
 
 ***
-
-## Questions after the refactor
-
-### Understanding the original problem
-
-1. Which methods in `HomeInkjet` are clear indicators that the Interface Segregation Principle is being violated, and why?
-2. Why is throwing `NotSupportedException` from interface methods typically a smell that the interface is too broad?
-
-### About your new interfaces
-
-3. What new interfaces did you create, and what responsibility does each one represent (e.g., printing, scanning)? Briefly describe each.  
-4. After your changes, what are the implemented interfaces for `OfficeAllInOne` and for `HomeInkjet`? How does this reflect their real capabilities?
-
-### About clients and usage
-
-5. Show the new type declarations you used in `Main`. For example, which interface type do you assign to the home device variable now, and why?  
-6. How does your refactor ensure that client code that only needs printing cannot accidentally call fax or duplex methods?
-
