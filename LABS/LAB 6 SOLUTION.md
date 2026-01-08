@@ -2,20 +2,6 @@
 
 In this exercise, you learn how to implement asynchronous tasks in C# to improve the responsiveness of your apps. You implement the `async` and `await` keywords to convert synchronous file I/O methods into asynchronous tasks that use the `Task` class to represent the result of an asynchronous operation. You also learn how to run tasks in parallel using the `Parallel` class, using methods such as `Parallel.ForEachAsync` to improve the performance of your code.
 
-**This exercise takes approximately 20 minutes to complete.**
-
-## Before you start
-
-Before you can start this exercise, you need to:
-
-- Ensure that you have the latest short term support (STS) version of the .NET SDK installed on your computer. You can download the latest versions of the .NET SDK using the following URL: [Download .NET](https://dotnet.microsoft.com/download)
-
-- Ensure that you have Visual Studio Code installed on your computer. You can download Visual Studio Code using the following URL: [Download Visual Studio Code](https://code.visualstudio.com)
-
-- Ensure that you have the C# Dev Kit configured in Visual Studio Code.
-
-For additional help configuring the Visual Studio Code environment, see [Install and configure Visual Studio Code for C# development](https://learn.microsoft.com/dotnet/core/tutorials/with-visual-studio-code)
-
 ## Exercise scenario
 
 Suppose you've agreed to help a non-profit company with a software project. Before the project kicks off, you decide to update your object-oriented programming skills by developing a banking app. The current version of your app supports basic operations such as creating accounts, managing transactions, and archiving bank records. To practice asynchronous programming, you're going convert synchronous file I/O methods into asynchronous tasks that improve the responsiveness of your app. You'll also investigate the performance gains achieved by running async tasks in parallel.
