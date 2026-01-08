@@ -1,16 +1,11 @@
-Here is a compact Markdown exercise where the **task is to change the code**, followed by questions.
-
-***
-
 ## Exercise: Fix the LSP Violation in C#
 
 ### Context
 
-The Liskov Substitution Principle says that objects of a derived type must be usable wherever their base type is expected, without breaking the correctness of the program.[1][2]
-
+The Liskov Substitution Principle says that objects of a derived type must be usable wherever their base type is expected, without breaking the correctness of the program.
 ***
 
-### Starting code (to be changed by the student)
+### Starting code 
 
 ```csharp
 using System;
@@ -80,7 +75,7 @@ namespace LspExercise
 }
 ```
 
-This design violates LSP because a `ReadOnlyReport` cannot safely replace a `Document` in all contexts: client code that expects every `Document` to be signable will break when it receives a `ReadOnlyReport`.[3][4]
+This design violates LSP because a `ReadOnlyReport` cannot safely replace a `Document` in all contexts: client code that expects every `Document` to be signable will break when it receives a `ReadOnlyReport`.
 
 ***
 
@@ -88,7 +83,7 @@ This design violates LSP because a `ReadOnlyReport` cannot safely replace a `Doc
 
 Change the code so that:
 
-- **Any** object used as a `Document` can safely be substituted without causing unexpected runtime failures when client code only relies on guarantees of `Document`.[5][1]
+- **Any** object used as a `Document` can safely be substituted without causing unexpected runtime failures when client code only relies on guarantees of `Document`.
 - Non‑signable documents (like `ReadOnlyReport`) cannot be passed to code that expects to sign documents, ideally enforced by the type system instead of runtime exceptions.
 
 Guidance (keep this, or hide it if you want the task more open‑ended):
@@ -111,7 +106,7 @@ Ask these once the student has changed the code.
 ### Understanding the original problem
 
 1. In the original code, which line in `DocumentProcessor.SignAll` caused the runtime exception, and why is that a violation of the Liskov Substitution Principle?  
-2. What implicit “contract” did `Document.Sign` communicate to calling code, and how did `ReadOnlyReport` break that contract by overriding it?[6][3]
+2. What implicit “contract” did `Document.Sign` communicate to calling code, and how did `ReadOnlyReport` break that contract by overriding it?
 
 ### About the refactor
 
