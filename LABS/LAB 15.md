@@ -1,13 +1,5 @@
 # Complete Guide to Factory Method and Abstract Factory Patterns in .NET
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Factory Method Pattern](#factory-method-pattern)
-3. [Abstract Factory Pattern](#abstract-factory-pattern)
-4. [Practical Implementation](#practical-implementation)
-5. [Practice Exercises](#practice-exercises)
-6. [Comparison and Decision Guide](#comparison-and-decision-guide)
-
 ---
 
 ## Introduction
