@@ -1,13 +1,5 @@
 # GitHub Actions with .NET: Complete Practical Guide
 
-## Table of Contents
-1. [GitHub Actions Fundamentals](#github-actions-fundamentals)
-2. [Basic .NET CI/CD Pipeline](#basic-netcicd-pipeline)
-3. [Complete Working Examples](#complete-working-examples)
-4. [Hands-On Exercises](#hands-on-exercises)
-5. [Selenium Test Automation with GitHub Actions](#selenium-test-automation-with-github-actions)
-6. [Troubleshooting & Best Practices](#troubleshooting--best-practices)
-
 ---
 
 ## GitHub Actions Fundamentals
